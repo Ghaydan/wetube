@@ -1,0 +1,81 @@
+body {
+  font-family: $font_regular;
+  padding: 0;
+  margin: 0;
+  background-color: $color-primary-inverse;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.grid-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  line-height: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-grow: 1;
+}
+
+.header {
+  background-color: $color-tertiary-inverse;
+  color: $color-primary-inverse;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 120px;
+}
+
+.footer {
+  background-color: $color-tertiary-inverse;
+  font-size: 20px;
+  color: $color-primary-inverse;
+  text-align: center;
+}
+
+.footer div {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  margin-right: 50px;
+}
+
+.links {
+  display: flex;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.playback {
+  margin-bottom: 60px;
+}
+
+button {
+  cursor: pointer;
+}

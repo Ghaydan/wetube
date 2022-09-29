@@ -1,0 +1,53 @@
+.home {
+  margin-bottom: 40px;
+  width: 250px;
+}
+
+.home:hover {
+  cursor: pointer;
+}
+
+.home-thumbnail {
+  height: 140px;
+  width: 250px;
+}
+
+.home-info {
+  display: flex;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+.home-text {
+  margin-left: 15px;
+}
+
+.home-text>h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.home-channel {
+  font-size: 14px;
+  color: $color-secondary-inverse;
+  margin: 2px 0;
+}
+
+.home-views {
+  font-size: 14px;
+  color: $color-primary;
+  margin: 2px 0;
+}
+
+.home-avatar {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50%;
+}
+
+.home-videos {
+  padding: 30px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

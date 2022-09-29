@@ -1,0 +1,53 @@
+.list {
+  margin-bottom: 40px;
+}
+
+.list li {
+  display: flex;
+}
+
+.list:hover {
+  cursor: pointer;
+}
+
+.list-thumbnail {
+  height: 170px;
+  width: 300px;
+}
+
+.list-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 0 30px;
+}
+
+.list-text>h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.list-channel {
+  font-size: 14px;
+  color: $color-secondary-inverse;
+  margin: 2px 0;
+}
+
+.list-views {
+  font-size: 14px;
+  color: $color-primary;
+  margin: 2px 0;
+}
+
+.list-avatar {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50%;
+}
+
+.list-videos {
+  padding: 30px 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
